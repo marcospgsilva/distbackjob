@@ -21,7 +21,7 @@ defmodule DistBackJob.Application do
 
   defp topologies do
     [
-      background_job: [
+      dist_back_job: [
         strategy: Cluster.Strategy.Gossip
       ]
     ]
